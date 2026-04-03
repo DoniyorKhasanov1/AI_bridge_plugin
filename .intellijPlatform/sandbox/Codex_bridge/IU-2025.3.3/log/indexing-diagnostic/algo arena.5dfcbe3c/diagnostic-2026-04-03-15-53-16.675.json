@@ -1,0 +1,51 @@
+{
+  "appInfo" : {
+    "build" : "253.31033.145",
+    "buildDate" : "2026-02-20T12:56:00Z[UTC]",
+    "productCode" : "IU",
+    "generated" : "2026-04-03T10:53:16.675483119Z",
+    "os" : "Linux 6.17.0-19-generic",
+    "runtime" : "JetBrains s.r.o. 21.0.10 21.0.10+7-b1163.108"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 2147483648,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 11,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "DumbIndexing",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "Algo Arena",
+    "times" : {
+      "scanningIds" : [ ],
+      "contentLoadingVisibleTime" : 0,
+      "retrievingChangedDuringIndexingFilesTime" : 36338,
+      "separateApplyingIndexesVisibleTime" : 0,
+      "updatingStart" : "2026-04-03T10:53:16.511065309Z",
+      "updatingEnd" : "2026-04-03T10:53:16.512362925Z",
+      "totalWallTimeWithPauses" : 1297616,
+      "wallTimeOnPause" : 0,
+      "isCancelled" : false,
+      "dumbModeStart" : "2026-04-03T10:53:16.511065309Z",
+      "dumbWallTimeWithPauses" : 1297616,
+      "dumbWallTimeWithoutPauses" : 1297616,
+      "totalWallTimeWithoutPauses" : 1297616
+    },
+    "fileCount" : {
+      "numberOfChangedDuringIndexingFiles" : 0,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringIndexingStage" : 0,
+      "numberOfFilesIndexedWithLoadingContent" : 0,
+      "numberOfNothingToWriteFiles" : 0
+    },
+    "totalStatsPerFileType" : [ ],
+    "totalStatsPerBaseLanguage" : [ ],
+    "totalStatsPerIndexer" : [ ],
+    "statisticsOfChangedDuringIndexingFiles" : {
+      "numberOfFiles" : 0,
+      "retrievingTime" : 36338
+    },
+    "fileProviderStatistics" : [ ],
+    "visibleTimeToAllThreadTimeRatio" : 0.0
+  }
+}

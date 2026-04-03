@@ -1,0 +1,13 @@
+<idea-plugin>
+    <id>ext.ide.bridges.codex</id>
+    <name>Codex Bridge</name>
+    <vendor>Doniyor Khasanov</vendor>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow id="CodexBridge"
+                    anchor="right"
+                    factoryClass="ext.ide.bridges.CodexToolWindowFactory"/>
+    </extensions>
+</idea-plugin>

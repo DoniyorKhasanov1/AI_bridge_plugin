@@ -1,0 +1,16 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="EditorBackSpace">
+      <i c="8" l="1775213707738" />
+    </e>
+    <e n="WelcomeScreen.OpenProject">
+      <i c="1" l="1775213555818" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.SquareAnActionButton">
+      <i c="1" l="1775213578643" />
+    </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$ShowOptionsAction">
+      <i c="5" l="1775213635041" />
+    </e>
+  </component>
+</application>

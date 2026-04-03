@@ -1,0 +1,46 @@
+<application>
+  <component name="FileEditorProviderManager"><![CDATA[{}]]></component>
+  <component name="LangManager">
+    <option name="languageName" value="JAVA" />
+  </component>
+  <component name="NotRoamableUiSettings">
+    <option name="presentationModeIdeScale" value="1.75" />
+  </component>
+  <component name="PropertyService"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.TerminalFontSettingsService.fixStoredNonMonospacedFonts": "true",
+    "RunOnceActivity.TerminalOptionsProvider.migration.2025.1.1": "true",
+    "RunOnceActivity.VFSInitializationConditionsToFusReporter": "true",
+    "RunOnceActivity.git.modal.commit.toggle": "true",
+    "RunOnceActivity.reset.auto.reparse.settings.to.default": "true",
+    "evlsprt3.253": "5",
+    "experimental.ui.on.first.startup": "true",
+    "experimental.ui.used.version": "253.31033.145",
+    "fileTypeChangedCounter": "1",
+    "fontSizeToResetConsole": "16.25",
+    "fontSizeToResetEditor": "16.25",
+    "input.method.disabler.muted": "true",
+    "installed.kotlin.plugin.version": "253.31033.145-IJ",
+    "last_opened_file_path": "/home/linux/IdeaProjects/Algo Arena",
+    "llm.installer.last.toolwindow.state": "LLM_INSTALLER",
+    "migrated.non.roamable.values.from.general.settings": "true",
+    "previousColorScheme": "_@user_Islands Dark",
+    "registry.to.advanced.settings.migration.build": "IU-253.31033.145",
+    "terminal.gen.one.option.visible": "false",
+    "trial.state.last.availability.check": "1775213566634",
+    "trial.state.last.availability.state": "false",
+    "trial.state.last.state": "FREE"
+  },
+  "keyToStringList": {
+    "file.chooser.recent.files": [
+      "/home/linux/IdeaProjects/Algo Arena"
+    ],
+    "fileTypeDetectors": [
+      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
+      "com.intellij.database.vfs.DbStorageFileType$Detector",
+      "com.intellij.docker.dockerFile.DockerFileTypeDetector",
+      "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
+    ]
+  }
+}]]></component>
+</application>

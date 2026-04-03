@@ -1,22 +1,36 @@
 plugins {
-    kotlin("jvm") version "2.3.0"
+    id("java")
+    kotlin("jvm")
+    id("org.jetbrains.intellij.platform")
 }
 
 group = "ext.ide.bridges"
 version = "1.0-SNAPSHOT"
 
-repositories {
-    mavenCentral()
+dependencies {
+    intellijPlatform {
+        local("/opt/idea")
+    }
 }
 
-dependencies {
-    testImplementation(kotlin("test"))
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(21))
+    }
 }
 
 kotlin {
-    jvmToolchain(23)
+    jvmToolchain(21)
 }
 
-tasks.test {
-    useJUnitPlatform()
+intellijPlatform {
+    pluginConfiguration {
+        id.set("ext.ide.bridges.codex")
+        name.set("Codex AI Bridge")
+
+        ideaVersion {
+            sinceBuild.set("253")
+            untilBuild.set("253.*")
+        }
+    }
 }
