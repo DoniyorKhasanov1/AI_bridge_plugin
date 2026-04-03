@@ -55,7 +55,6 @@ class CodexToolWindowFactory : ToolWindowFactory {
             if (isThinking) {
                 chatHistory = chatHistory.replace("</div>\n        </body>", "$newMessage</div>\n        </body>")
             } else {
-                // Agar avval "Thinking" bo'lsa, uni o'chirib haqiqiy javobni qo'yamiz
                 if (chatHistory.contains("id='thinking-block'")) {
                     val thinkingPattern = Regex("<div id='thinking-block'.*?</div>.*?</div>", RegexOption.DOT_MATCHES_ALL)
                     chatHistory = chatHistory.replace(thinkingPattern, "")
